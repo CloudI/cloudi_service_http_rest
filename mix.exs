@@ -3,7 +3,7 @@ defmodule CloudIServiceHttpRest do
 
   def project do
     [app: :cloudi_service_http_rest,
-     version: "2.0.0",
+     version: "2.0.1",
      language: :erlang,
      erlc_options: [
        :debug_info,
@@ -26,8 +26,8 @@ defmodule CloudIServiceHttpRest do
   end
 
   defp deps do
-    [{:cloudi_core, "~> 2.0.0"},
-     {:trie, "~> 2.0.0"}]
+    [{:cloudi_core, "~> 2.0.1"},
+     {:trie, "~> 2.0.1"}]
   end
 
   defp description do
@@ -35,7 +35,7 @@ defmodule CloudIServiceHttpRest do
   end
 
   defp package do
-    [files: ~w(src include doc rebar.config README.markdown),
+    [files: ~w(src include doc rebar.config README.markdown LICENSE),
      maintainers: ["Michael Truog"],
      licenses: ["MIT"],
      links: %{"Website" => "https://cloudi.org",

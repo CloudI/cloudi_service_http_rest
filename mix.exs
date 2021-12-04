@@ -3,7 +3,7 @@ defmodule CloudIServiceHttpRest do
 
   def project do
     [app: :cloudi_service_http_rest,
-     version: "2.0.2",
+     version: "2.0.3",
      language: :erlang,
      erlc_options: [
        :debug_info,
@@ -26,8 +26,8 @@ defmodule CloudIServiceHttpRest do
   end
 
   defp deps do
-    [{:cloudi_core, "~> 2.0.2"},
-     {:trie, "~> 2.0.2"}]
+    [{:cloudi_core, "~> 2.0.3", app: false},
+     {:trie, "~> 2.0.3", app: false}]
   end
 
   defp description do

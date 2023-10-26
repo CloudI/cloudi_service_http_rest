@@ -3,7 +3,7 @@ defmodule CloudIServiceHttpRest do
 
   def project do
     [app: :cloudi_service_http_rest,
-     version: "2.0.6",
+     version: "2.0.7",
      language: :erlang,
      erlc_options: [
        :deterministic,
@@ -18,8 +18,8 @@ defmodule CloudIServiceHttpRest do
   end
 
   defp deps do
-    [{:cloudi_core, ">= 2.0.6"},
-     {:trie, ">= 2.0.6"}]
+    [{:cloudi_core, ">= 2.0.7"},
+     {:trie, ">= 2.0.7"}]
   end
 
   defp description do
